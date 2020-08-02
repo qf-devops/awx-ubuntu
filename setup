@@ -1,0 +1,52 @@
+/usr/bin/python3
+root@awx:~/awx/installer# history
+    1  clear
+    2  pwd
+    3  sudo apt update && sudo apt -y upgrade
+    4  reboot
+    5  docker version
+    6  curl -s https://api.github.com/repos/docker/compose/releases/latest   | grep browser_download_url   | grep docker-compose-Linux-x86_64   | cut -d '"' -f 4   | wget -qi -
+    7  curl -s https://api.github.com/repos/docker/compose/releases/latest   | grep browser_download_url   | grep docker-compose-Linux-x86_64   | cut -d '"' -f 4   | wget -qi -
+    8  chmod +x docker-compose-Linux-x86_64
+    9  sudo mv docker-compose-Linux-x86_64 /usr/local/bin/docker-compose
+   10  chmod 777 /usr/local/bin/docker-compose
+   11  docker-compose --version
+   12  sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+   13  sudo chmod +x /usr/local/bin/docker-compose
+   14  sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+   15  docker-compose --version
+   16  sudo apt install -y nodejs npm
+   17  sudo npm install npm --global
+   18  sudo apt -y install python-pip git pwgen vim
+   19  sudo pip install requests==2.14.2
+   20  docker-compose --version
+   21  git clone --depth 50 https://github.com/ansible/awx.git
+   22  cd awx/installer/
+   23  pwgen -N 1 -s 30
+   24  vi inventory 
+   25  clear
+   26  ls -lrt
+   27  vi inventory 
+   28  history
+   29  ansible --version
+   30  which python3
+   31  ansible-playbook -i inventory install.yml
+   32  vi inventory 
+   33  ansible-playbook -i inventory install.yml
+   34  vi inventory 
+   35  ansible-playbook -i inventory install.yml
+   36  vi inventory 
+   37  ansible-playbook -i inventory install.yml -e "ansible_python_interpreter=/usr/bin/python3"
+   38  vi inventory 
+   39  ansible-playbook -i inventory install.yml -e "ansible_python_interpreter=/usr/bin/python3"
+   40  ansible-playbook -i inventory install.yml -e "ansible_python_interpreter=/usr/bin/python"
+   41  pip install docker
+   42  ansible-playbook -i inventory install.yml -e "ansible_python_interpreter=/usr/bin/python3"
+   43  ansible-playbook -i inventory install.yml -e "ansible_python_interpreter=/usr/bin/python"
+   44  pip install docker-compose
+   45  ansible-playbook -i inventory install.yml -e "ansible_python_interpreter=/usr/bin/python"
+   46  which python3
+   47  history
+   
+   https://www.howtoforge.com/how-to-install-ansible-awx-with-nginx-reverse-proxy-on-ubuntu-1804/
+   https://ubuntuawesome.com/posts/how-to-install-ansible-awx-on-ubuntu-18.04/
